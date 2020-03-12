@@ -12,6 +12,7 @@ $wordsList = [
 	"ZIMBAUE",
 	"SANTANDER",
 	"GEEK HUNTER",
+	"NEW YORK",
 	"DESENVOLVIMENTO"
 ];
 
@@ -37,13 +38,21 @@ function encryptCesar($input)
 				$newIndex = $k2+3;
 				
 				$return .= $alphabet[$newIndex];
-			} else if($char == " ") {
+			} 
+			
+			if($char == " ") {
 				$return .= " ";
-			} else if($char == "Z" && $letter == "Z") {
+			} 
+			
+			if($char == "Z" && $letter == "Z") {
 				$return .= "C";
-			} else if($char == "X" && $letter == "X") {
+			}
+			
+			if($char == "X" && $letter == "X") {
 				$return .= "A";
-			} else if($char == "Y" && $letter == "Y") {
+			} 
+			
+			if($char == "Y" && $letter == "Y") {
 				$return .= "B";
 			}
 		}
