@@ -12,7 +12,7 @@ $wordsList = [
 	"ZIMBAUE",
 	"SANTANDER",
 	"GEEK HUNTER",
-	"NEW YORK",
+	"GENERATION XYZ",
 	"DESENVOLVIMENTO"
 ];
 
