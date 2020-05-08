@@ -7,13 +7,17 @@ Solve cesar code challenge with PHP
 <?php
 
 $wordsList = [
-	"BBI",
+	"ARGENTINA",
 	"BRASIL",
-	"ZIMBAUE",
-	"SANTANDER",
+	"BOLIVIA",
+	"CHILE",
+	"COLÔMBIA",
+	"EQUADOR",
 	"GEEK HUNTER",
-	"GENERATION XYZ",
-	"DESENVOLVIMENTO"
+	"PARAGUAI",
+	"PERU",
+	"REPUBLICA DOMINICANA",
+	"URUGUAI"
 ];
 
 
